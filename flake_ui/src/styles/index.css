@@ -1,0 +1,25 @@
+body {
+    font-family: 'Tajawal';
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#root {
+    height: 100%;
+    width: 96%;
+}
+
+html {
+    height: 100%;
+}
+
+Button {
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+}

@@ -1,0 +1,101 @@
+.find-friends-container {
+    left: 5%;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.searchbar {
+    width: 80%
+}
+
+.page-select-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 80px;
+    bottom: 5px;
+    right: 10px;
+}
+
+.page-number {
+    color: rgb(53, 121, 240);
+    padding-right: 5px;
+}
+
+.page-number:hover {
+    cursor: pointer;
+}
+
+.page-chevron-left:before {
+    font-size: 1.2em;
+    color: rgb(53, 121, 240);
+    content: "\2039";
+}
+
+.page-chevron-left {
+    transform: translate(-.2em, -.2em);
+    padding-right: 5px;
+}
+
+.page-chevron-right:after {
+    font-size: 1.2em;
+    color: rgb(53, 121, 240);
+    content: "\203A";
+}
+
+.page-chevron-right {
+    transform: translate(.2em, -.2em);
+    padding-right: 5px;
+}
+
+.friend-record {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.friend-status-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.accept-deny-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 240px;
+}
+
+.default-request-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 145px;
+}
+
+.request-Button {}
+
+.block-request-Button {}
+
+.accept-request-Button {}
+
+.deny-request-Button {}
+
+.refriend-request-Button {}
+
+.unblock-request-Button {}

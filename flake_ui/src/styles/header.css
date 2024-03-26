@@ -1,0 +1,24 @@
+.header-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    z-index: 7;
+    background-color: rgb(120, 200, 189);
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.app-name {
+    font-size: 30px;
+    color: white;
+    padding: 10px 0px 0px 20px;
+    font-family: "Bubbler One", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+}

@@ -1,0 +1,54 @@
+.react-calendar {
+    width: 100%;
+}
+
+.make-plans-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.make-plans-form>* {
+    margin-top: 14px;
+}
+
+.make-plans-query {
+    margin: 20px 0px 20px 0px;
+}
+
+.current-plan-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 1px rgb(0 0 0 / 20%);
+    margin-top: 20px;
+}
+
+.accept-reject-Button-container {
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    justify-content: space-between;
+}
+
+.accept-reject-Button-container Button:only-child {
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.unclickable {
+    pointer-events: none;
+}
+
+.everyone-cancelled {
+    background-color: rgb(254, 171, 171);
+}
+
+h3 {
+    margin: 5px;
+}

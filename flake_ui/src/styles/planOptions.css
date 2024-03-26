@@ -1,0 +1,19 @@
+.plan-option-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-option-Button {
+    width: 70%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.plan-back-Button {
+    position: fixed;
+    top: 70px;
+    background-color: white;
+    z-index: 1000;
+}
